@@ -4,7 +4,7 @@
     height: 15vh;
     background: rgb(41, 41, 39);
     color: aliceblue;
-    font-family: cursive;
+    font-family: 'Fragments';
 }
 /* change the size of the input */
 .form-control{
@@ -15,14 +15,22 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+/* aligning content in the nav */
+.intro,
+.search{
+    margin-top: 2.5rem;
+}
 /* flexing the search div to aligh them. */
 .search{
     display: flex;
 }
-.search:last-child{
-    margin-right: 3rem;
-    padding: 10px;
+button{
+    height: 2.52rem;
 }
-/* .search:first-child{
-    padding-right: 15px;
-} */
+.search:last-child{
+    margin-right: 4rem;
+}
+/* editting the intro child */
+.intro{
+    margin-left: 3rem;
+}
