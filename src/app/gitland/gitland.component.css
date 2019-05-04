@@ -1,4 +1,28 @@
+/* giving the head div some dimensions */
+.header{
+    width: 100%;
+    height: 15vh;
+    background: rgb(41, 41, 39);
+    color: aliceblue;
+    font-family: cursive;
+}
 /* change the size of the input */
 .form-control{
-    width: 17rem;
+    width: 15vw;
 }
+/* flexing the nav to show the heading and search on the different sides of the page */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* flexing the search div to aligh them. */
+.search{
+    display: flex;
+}
+.search:last-child{
+    margin-right: 3rem;
+    padding: 10px;
+}
+/* .search:first-child{
+    padding-right: 15px;
+} */

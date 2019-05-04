@@ -1,10 +1,17 @@
 <body>
   <div class="header">
     <nav>
-      <div class="intro"><h1>GITRICA</h1></div>
-      <input  class='form-control' type="text" #search >
-      <!-- {{search.value}} -->
-      <button class="btn btn-primary" (click)='getSearch()'>search</button>
+      
+      <div class="intro">
+        <h1>GITRICA</h1>
+      </div>
+
+      <div class="search">
+        <input  class='form-control' type="text" #search >
+        <button class="btn btn-primary" (click)='getSearch()'>search</button>
+      </div>
+      
+      <!-- {{search.value}} --> 
     </nav>
   </div>
 </body>
