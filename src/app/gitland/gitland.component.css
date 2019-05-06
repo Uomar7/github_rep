@@ -1,0 +1,26 @@
+h1{
+    font-family: 'fragments';
+    font-size: 3rem;
+    font-weight: 700;
+    color: aliceblue;
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    width: 15vw;
+    margin-right: 7rem;
+}
+.form-group{
+    transform: translateY(3rem);
+}
+
+.intro{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(31, 30, 30);
+    height: 15vh;
+    margin-bottom: 10px;
+}
